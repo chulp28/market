@@ -1,0 +1,74 @@
+#items {
+  display: flex;
+  justify-content: center;
+}
+
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 70px;
+}
+#cards .block-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: Soyz;
+  font-size: 30px;
+}
+#cards .block-title .brand-name{
+  background-color: red;
+  padding: 0 5px 0 5px;
+  color: white;
+}
+
+
+.card {
+  width: 24.7%;
+  min-width: 473px;
+}
+.card .image {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  width: 100%;
+  height: 700px;
+
+  background-image: url('/assets/images/card.png');
+  background-color: #F7F7F9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 0.5s;
+}
+.card .image:hover {
+  background-size: 105%;
+}
+.card .image .add-icon {
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+
+  margin-bottom: 5px;
+  margin-right: 5px;
+
+  background-image: url('/assets/icons/add.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card .text {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+.card .text p {
+  margin: 0;
+  font-size: 14px;
+}
+.card .text p.price {
+  opacity: 0.8;
+}
