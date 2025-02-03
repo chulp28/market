@@ -67,7 +67,7 @@
   cursor: pointer;
 }
 .nav-menu #cart img {
-  content: url('../assets/icons/cart.svg');
+  content: url("/assets/icons/cart.svg");
 
   width: 24px;
   height: 24px;
